@@ -13,35 +13,43 @@
         android:orientation="vertical">
 
         <TextView
-                android:layout_width="100dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Small"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_image"/>
+
+        <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Large"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_image"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:text="Tall"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_image"/>
+
+        <TextView
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:text="Small text box"
-                android:textSize="40sp"
-                android:textColor="#FFFFFF"
-                android:gravity="center"/>
-
-        <TextView
-                android:layout_width="500dp"
-                android:layout_height="500dp"
-                android:text="Large text box"
+                android:text="Wide"
                 android:textSize="20sp"
                 android:textColor="#FFFFFF"
-                android:gravity="center"/>
-
-        <TextView
-                android:layout_width="100dp"
-                android:layout_height="500dp"
-                android:text="Tall text box"
-                android:textSize="20sp"
-                android:textColor="#FFFFFF"
-                android:gravity="center"/>
-
-        <TextView
-                android:layout_width="500dp"
-                android:layout_height="100dp"
-                android:text="Wide text box"
-                android:textSize="20sp"
-                android:textColor="#FFFFFF"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_image"/>
     </LinearLayout>
 </ScrollView>
